@@ -20,3 +20,8 @@ Resolution – We can use lot of methods from python one of them is split() meth
 Resolution – In python we have datetime module which helps us to convert the date to basic format or it helps us to work with dates in any format. 
 
 # Question-03
+From the project API's i took financial/stock Api  
+IEX stock/financial API- https://iexcloud.io/docs/api/
+Quandl stock/financial API - https://www.quandl.com/tools/api
+API i collected from google is covid API, it has covid data till may2021.
+Covid API - https://api.covidtracking.com
