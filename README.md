@@ -25,3 +25,20 @@ IEX stock/financial API- https://iexcloud.io/docs/api/
 Quandl stock/financial API - https://www.quandl.com/tools/api
 API i collected from google is covid API, it has covid data till may2021.
 Covid API - https://api.covidtracking.com
+
+
+
+# DATACAMP JOINING DATA 
+
+<img width="932" alt="Joining Data" src="https://user-images.githubusercontent.com/85424403/140399735-de8eb805-1f4a-474b-a486-f955978afc54.png">
+
+# Autoincrementing
+
+AUTOINCREMENT keyword imposes extra CPU, memory, disk space, and disk overhead. it is said that it should be avoided if not strictly needed. It is usually not needed.
+In SQL a column with type INTEGER PRIMARY KEY is an alias for the ROWID (except in WITHOUT ROWID tables) which is always a 64-bit signed integer.
+On an INSERT, if the ROWID or INTEGER PRIMARY KEY column is not explicitly given a value, then it will be filled automatically with an unused integer, usually one more than the largest ROWID currently in use. This is true regardless of whether or not the AUTOINCREMENT keyword is used.
+If the AUTOINCREMENT keyword appears after INTEGER PRIMARY KEY, that changes the automatic ROWID assignment algorithm to prevent the reuse of ROWIDs over the lifetime of the database. In other words, the purpose of AUTOINCREMENT is to prevent the reuse of ROWIDs from previously deleted rows.
+# join and a subquery
+Join adds the table to another table and we have various types of join menthos to join the table where as subquery is like writing a query within the query 
+it helps us to perform various calculations. we can have join in the subquery but it is not possible to add subquery while joining the table. joining  helps us to add data and perform querys and it gives us the accurate data while writing the query. subquery is logical and helps us decrease the query size.
+
